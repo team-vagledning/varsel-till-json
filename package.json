@@ -1,0 +1,21 @@
+{
+  "name": "varsel-till-json",
+  "version": "0.1.0",
+  "description": "",
+  "main": "bin/index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csvtojson": "^2.0.10",
+    "temp": "^0.9.1",
+    "xlsjs": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Kemi",
+  "license": "MIT",
+  "bin": {
+    "varsel-to-json": "./bin/index.js"
+  }
+}
